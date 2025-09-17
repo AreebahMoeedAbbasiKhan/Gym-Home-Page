@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PeakFit Gym — Get Stronger, Feel Better</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="PeakFit Gym — Personal training, group classes, and a friendly community. Join now for a free trial.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">PeakFit</a>
+      <nav class="main-nav">
+        <a href="#classes">Classes</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="cta small-cta">Get Started</a>
+      </nav>
+      <button class="hamburger" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Build Strength. Boost Confidence.</h1>
+          <p>Join PeakFit — dynamic classes, expert coaches, and 24/7 access to get you stronger and healthier.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#pricing">Start Free Trial</a>
+            <a class="btn ghost" href="#classes">View Classes</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="gym.jpg" alt="Gym Setup" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <div class="feature">
+        <h3>Expert Coaches</h3>
+        <p>Certified trainers who build personalized plans to reach your goals faster.</p>
+      </div>
+      <div class="feature">
+        <h3>Modern Equipment</h3>
+        <p>Top-tier machines and free weights maintained for safety and performance.</p>
+      </div>
+      <div class="feature">
+        <h3>Group Classes</h3>
+        <p>High-energy sessions — HIIT, Strength, Yoga, and Mobility for every fitness level.</p>
+      </div>
+    </section>
+
+    <section id="classes" class="section container classes">
+      <h2>Popular Classes</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h4>HIIT Blast</h4>
+          <p>30-minute high-intensity sessions for fat burn and endurance.</p>
+          <a class="card-link" href="#">Book Class</a>
+        </article>
+        <article class="card">
+          <h4>Strength & Power</h4>
+          <p>Barbell-focused program to build strength and muscle.</p>
+          <a class="card-link" href="#">Book Class</a>
+        </article>
+        <article class="card">
+          <h4>Flow & Recover</h4>
+          <p>Yoga and mobility sessions to improve recovery and flexibility.</p>
+          <a class="card-link" href="#">Book Class</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="trainers" class="section container trainers">
+      <h2>Meet the Coaches</h2>
+      <div class="trainer-grid">
+        <figure class="trainer">
+          <div class="avatar">A</div>
+          <figcaption>
+            <strong>Ali Khan</strong>
+            <small>Strength Coach</small>
+          </figcaption>
+        </figure>
+        <figure class="trainer">
+          <div class="avatar">M</div>
+          <figcaption>
+            <strong>Maria Lopez</strong>
+            <small>HIIT & Conditioning</small>
+          </figcaption>
+        </figure>
+        <figure class="trainer">
+          <div class="avatar">S</div>
+          <figcaption>
+            <strong>Sara Ahmed</strong>
+            <small>Yoga & Mobility</small>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="pricing" class="section container pricing">
+      <h2>Simple Pricing</h2>
+      <div class="price-grid">
+        <div class="price-card">
+          <h3>Basic</h3>
+          <p class="price-amount">$19<span>/mo</span></p>
+          <ul>
+            <li>Gym access (off-peak)</li>
+            <li>Free Wi‑Fi</li>
+            <li>1 group class/week</li>
+          </ul>
+          <a class="btn" href="#contact">Choose Basic</a>
+        </div>
+        <div class="price-card recommended">
+          <h3>Pro</h3>
+          <p class="price-amount">$39<span>/mo</span></p>
+          <ul>
+            <li>24/7 access</li>
+            <li>All classes included</li>
+            <li>2 free PT sessions</li>
+          </ul>
+          <a class="btn primary" href="#contact">Start Pro</a>
+        </div>
+        <div class="price-card">
+          <h3>Premium</h3>
+          <p class="price-amount">$69<span>/mo</span></p>
+          <ul>
+            <li>Unlimited PT</li>
+            <li>Nutrition plan</li>
+            <li>Recovery suite</li>
+          </ul>
+          <a class="btn" href="#contact">Go Premium</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact">
+      <h2>Get Started</h2>
+      <div class="contact-grid">
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Full name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell us what you're looking for..."></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+          <p><strong>PeakFit Gym</strong></p>
+          <p>123 Strength Ave, Your City</p>
+          <p>Mon–Fri: 05:00–23:00</p>
+          <p>Sat–Sun: 07:00–20:00</p>
+          <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> PeakFit Gym — All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // small JS for year and mobile menu toggle
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const btn = document.querySelector('.hamburger');
+    const nav = document.querySelector('.main-nav');
+    btn.addEventListener('click', ()=> nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
+
+
